@@ -1,0 +1,24 @@
+### to Get all items
+GET http://localhost:3000/api/items
+
+### to Get a single item
+GET http://localhost:3000/api/items/1
+
+### to Create a new item
+POST http://localhost:3000/api/items
+Content-Type: application/json
+
+{
+  "name": "New Item"
+}
+
+### for Updating an item
+PUT http://localhost:3000/api/items/1
+Content-Type: application/json
+
+{
+  "name": "Updated Item"
+}
+
+### to Delete an item
+DELETE http://localhost:3000/api/items/1
